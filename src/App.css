@@ -1,0 +1,45 @@
+:root {
+  --blue-color: #a4c5c6;
+  --blue-dark-color: #a2bbbd;
+  --purple-color: #856c8b;
+  --purple-dark-color: #68536b;
+}
+@media (min-width: 1200px) {
+  .container{
+      min-width: 600px;
+  }
+}
+.drum-pad{
+  width: 100px;
+  height: 80px;
+}
+#drum-machine{
+  height: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 2px;
+  grid-row-gap: 2px;
+}
+#display{
+  padding: 2px;
+}
+.volume-slider{
+  margin: auto;
+}
+.display{
+  margin: auto;
+}
+#volume-slider #label{
+  padding-left: 4px;
+}
+.powerButton{
+  margin-top: auto;
+}
+#powerButton{
+  background-color: red;
+}
+#powerButton.active{
+  background-color: green;
+}
